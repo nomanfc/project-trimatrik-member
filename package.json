@@ -1,0 +1,35 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3040",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "faker": "^6.6.6",
+    "js-cookie": "^3.0.1",
+    "moment": "^2.29.4",
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-month-picker": "^2.2.1",
+    "react-spinners": "^0.13.3",
+    "react-super-responsive-table": "^5.2.1",
+    "react-table": "^7.8.0"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
